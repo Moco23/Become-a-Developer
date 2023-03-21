@@ -1,3 +1,10 @@
+.container {
+  width: 50%;
+  margin-inline: auto;
+  display: grid;
+  justify-content: center;
+}
+
 .profileImg {
   height: auto;
   width: 250px;
