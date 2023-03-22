@@ -1,3 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  justify-content: center;
+}
+
+.preHeader {
+  display: grid;
+  justify-content: center;
+  height: 25px;
+  background-color: rgb(238, 162, 20);
+  margin-bottom: 10px;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
 .container {
   width: 50%;
   margin-inline: auto;
@@ -8,6 +33,7 @@
 .profileImg {
   height: auto;
   width: 250px;
+  border: 3px solid rgb(238, 162, 20);
   border-radius: 50%;
 }
 h1 {
@@ -15,4 +41,11 @@ h1 {
 }
 h3 {
   color: darkviolet;
+}
+
+footer {
+  display: grid;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: rgb(238, 162, 20);
 }
