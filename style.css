@@ -1,3 +1,14 @@
+/* 
+main-background-olor #fbeaeb
+main-p-color #333
+main-h,link-color #2F3C7E
+main-border-color #2f3c7e
+
+
+
+
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +18,7 @@
 html {
   font-family: sans-serif;
   font-size: 62.5%;
+  color: #333;
 }
 
 .preHeader {
@@ -14,19 +26,17 @@ html {
   justify-content: center;
   align-items: center;
   height: 25px;
-  background-color: rgb(238, 162, 20);
+  background-color: #fbeaeb;
   margin-bottom: 10px;
 }
 
 nav a {
   margin: 10px;
   text-decoration: none;
-  color: #000;
+  color: #2f3c7e;
 }
 
 .container {
-  /* width: 50%; */
-  /* margin-inline: auto; */
   display: grid;
   justify-content: center;
   align-items: center;
@@ -35,15 +45,18 @@ nav a {
 .profileImg {
   height: auto;
   width: 250px;
-  border: 3px solid rgb(238, 162, 20);
+  border: 3px solid #2f3c7e;
   border-radius: 50%;
+  margin-bottom: 10px;
 }
 h1 {
   font-size: 3rem;
-  text-decoration: underline;
+  font-style: italic;
+  text-transform: uppercase;
+  /* text-decoration: underline; */
 }
 h3 {
-  color: darkviolet;
+  color: #2f3c7e;
   font-size: 2rem;
 }
 
@@ -51,6 +64,7 @@ h3 {
 .programerInfo {
   font-size: 1.7rem;
   line-height: 1.5;
+  margin-bottom: 10px;
 }
 
 .mreze {
@@ -59,10 +73,21 @@ h3 {
   margin-left: 3px;
 }
 
+.iconMreze {
+  color: #2f3c7e;
+}
+
 /* footer */
 footer {
   display: grid;
   justify-content: center;
+  align-items: center;
+  padding: 5px;
   margin-top: 10px;
-  background-color: rgb(238, 162, 20);
+  background-color: #fbeaeb;
+  color: #333;
+}
+
+footer span {
+  color: #2f3c7e;
 }
