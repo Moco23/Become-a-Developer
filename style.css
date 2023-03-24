@@ -32,8 +32,14 @@ html {
 
 nav a {
   margin: 10px;
+  padding: 3px;
   text-decoration: none;
   color: #2f3c7e;
+}
+nav a:hover {
+  background-color: #2f3c7e;
+  color: #fbeaeb;
+  transition: 0.5s;
 }
 
 .container {
@@ -74,7 +80,18 @@ h3 {
 }
 
 .iconMreze {
+  align-items: center;
+  padding: 8px;
   color: #2f3c7e;
+  border-radius: 50%;
+}
+.iconMreze:hover {
+  /* padding-top: 5px; */
+  background-color: #2f3c7e;
+  color: #fbeaeb;
+  transition: 0.5s;
+  border: 1px solid #fbeaeb;
+  border-radius: 50%;
 }
 
 /* footer */
