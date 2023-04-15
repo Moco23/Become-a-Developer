@@ -1,0 +1,31 @@
+.workHistory {
+  background: var(--secondary-bg-color);
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.rayanPortofolio {
+  display: flex;
+}
+
+.aboutRyanPortofolio {
+  width: 30%;
+  text-align: left;
+}
+
+.imgRyanPortofolio {
+  width: 70%;
+}
+
+.imgRyanPortofolio img {
+  width: 100%;
+  height: auto;
+}
+
+.aboutRyanPortofolio p {
+  color: var(--secondary-text-color);
+  font-size: var(--font-size-28px);
+  padding: 2rem;
+  line-height: 1.5;
+}

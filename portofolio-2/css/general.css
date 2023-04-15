@@ -1,0 +1,134 @@
+/* imported css files */
+@import url(header.css);
+@import url(hero.css);
+@import url(workhistory.css);
+
+/* root variables */
+:root {
+  /* font sizes */
+  --font-size-12px: 1.2rem;
+  --font-size-14px: 1.4rem;
+  --font-size-16px: 1.6rem;
+  --font-size-17px: 1.7rem;
+  --font-size-18px: 1.8rem;
+  --font-size-20px: 2rem;
+  --font-size-22px: 2.2rem;
+  --font-size-24px: 2.4rem;
+  --font-size-28px: 2.8rem;
+  --font-size-30px: 3rem;
+  --font-size-32px: 3.2rem;
+  --font-size-34px: 3.4rem;
+  --font-size-35px: 3.5rem;
+  --font-size-40px: 4rem;
+  --font-size-42px: 4.2rem;
+  --font-size-45px: 4.5rem;
+  --font-size-50px: 5rem;
+  --font-size-60px: 6rem;
+
+  /* font family */
+  --font-family: sans-serif;
+  --font-family-inter: "Inter";
+  --font-family-roboto: "Roboto";
+  --font-family-lato: "Lato";
+
+  /* colors */
+  --main-bg-color: #d3b1c2;
+  --secondary-bg-color: #211522;
+  --main-heading-color: #613659;
+  --secondary-heading-color: #c197d2;
+  --main-text-color: #211522;
+  --secondary-text-color: #c197d2;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  color: #333;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+body {
+  background: var(--main-bg-color);
+}
+
+li {
+  list-style: none;
+}
+
+.navA {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+
+.mainHeading {
+  color: var(--main-heading-color);
+  font-size: var(--font-size-50px);
+  font-family: var(--font-family-inter);
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.secondaryHeading {
+  color: var(--secondary-heading-color);
+  font-size: var(--font-size-30px);
+  padding: 2rem;
+}
+
+.mainP {
+  color: var(--main-text-color);
+  font-size: var(--font-size-22px);
+}
+
+.secondaryP {
+  color: var(--secondary-text-color);
+  font-size: var(--font-size-22px);
+}
+
+.secondaryP {
+  color: var(--secondary-text-color);
+}
+
+.centerContainer {
+  width: 92rem;
+  margin-inline: auto;
+}
+
+.contactBtn {
+  background: var(--secondary-bg-color);
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+  font-size: var(--font-size-24px);
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  bottom: -8rem;
+  right: 2.5rem;
+}
+
+.galleryBtn {
+  background: var(--secondary-bg-color);
+  border: none;
+}
+
+.galleryBtn a {
+  font-size: var(--font-size-24px);
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  border: 0.1rem solid var(--secondary-heading-color);
+  padding: 0.5rem 4rem;
+  border-radius: 0 50% 50% 0;
+  margin: 1rem 0 0 10rem;
+}
+
+.galleryBtn a:hover {
+  background: var(--secondary-heading-color);
+  color: var(--main-text-color);
+  transition: 0.3s;
+}

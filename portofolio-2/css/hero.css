@@ -1,0 +1,20 @@
+.hero {
+  width: 30%;
+  margin-left: 40rem;
+  text-align: left;
+  margin-bottom: 20rem;
+}
+
+.hero img {
+  position: absolute;
+  top: 10rem;
+  right: 35rem;
+  width: 35rem;
+  height: auto;
+  border-radius: 50%;
+  border: 0.1rem solid var(--secondary-bg-color);
+}
+
+.heroTextBox {
+  position: relative;
+}
