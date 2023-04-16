@@ -1,0 +1,63 @@
+.contctSection {
+  width: 100%;
+  background: var(--secondary-bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cForm {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 5rem;
+  padding: 2rem 4rem;
+  color: var(--secondary-text-color);
+  font-size: var(--font-size-18px);
+}
+
+.formInput {
+  background: var(--main-bg-color);
+  width: 30rem;
+  height: auto;
+}
+
+.conFormSubmitA {
+  text-transform: uppercase;
+  font-size: var(--font-size-20px);
+  border: 0.1rem solid var(--main-bg-color);
+  padding: 2rem 4rem;
+  margin-bottom: 1rem;
+}
+
+.conFormSubmitA:hover {
+  color: var(--main-text-color);
+  font-size: var(--font-size-24px);
+  background: var(--main-bg-color);
+  border: 0.1rem solid var(--secondary-bg-color);
+  transition: 0.3s;
+}
+
+.cFormRadio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conntactFormCheckbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contactFormOptionBox,
+.contactFormInfoBox {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}

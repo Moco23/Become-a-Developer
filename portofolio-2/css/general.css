@@ -2,6 +2,9 @@
 @import url(header.css);
 @import url(hero.css);
 @import url(workhistory.css);
+@import url(tech.css);
+@import url(testimonials.css);
+@import url(contactSection.css);
 
 /* root variables */
 :root {
@@ -61,11 +64,6 @@ li {
   list-style: none;
 }
 
-.navA {
-  text-decoration: none;
-  color: var(--secondary-text-color);
-}
-
 .mainHeading {
   color: var(--main-heading-color);
   font-size: var(--font-size-50px);
@@ -76,8 +74,25 @@ li {
 
 .secondaryHeading {
   color: var(--secondary-heading-color);
+  font-family: var(--font-family-inter);
+  font-style: italic;
   font-size: var(--font-size-30px);
   padding: 2rem;
+}
+
+.secondaryHeading_2 {
+  color: var(--main-heading-color);
+  font-family: var(--font-family-inter);
+  font-style: italic;
+  font-size: var(--font-size-30px);
+  padding: 2rem;
+}
+
+.secondaryHeading_3 {
+  color: var(--main-heading-color);
+  font-family: var(--font-family-inter);
+  font-style: italic;
+  font-size: var(--font-size-24px);
 }
 
 .mainP {
