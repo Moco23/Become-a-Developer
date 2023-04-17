@@ -5,6 +5,8 @@
 @import url(tech.css);
 @import url(testimonials.css);
 @import url(contactSection.css);
+@import url(pricing.css);
+@import url(footer.css);
 
 /* root variables */
 :root {
@@ -105,8 +107,9 @@ li {
   font-size: var(--font-size-22px);
 }
 
-.secondaryP {
-  color: var(--secondary-text-color);
+.secondaryP_2 {
+  color: var(--main-text-color);
+  font-size: var(--font-size-22px);
 }
 
 .centerContainer {
@@ -146,4 +149,12 @@ li {
   background: var(--secondary-heading-color);
   color: var(--main-text-color);
   transition: 0.3s;
+}
+
+.grid_col_3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
