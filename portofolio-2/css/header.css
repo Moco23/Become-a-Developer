@@ -1,5 +1,4 @@
 .mainNav {
-  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -18,11 +17,11 @@
 .navA {
   text-decoration: none;
   color: var(--secondary-text-color);
+  transition: all 0.5s ease-in-out 0s;
 }
 
 .navA_hover:hover {
   font-size: var(--font-size-28px);
   cursor: default;
   transform: rotate(360deg);
-  transition: all 0.5s ease-in-out 0s;
 }

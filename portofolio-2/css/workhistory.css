@@ -11,7 +11,7 @@
 }
 
 .aboutRyanPortofolio {
-  width: 30%;
+  width: 50%;
   text-align: left;
 }
 
@@ -29,4 +29,25 @@
   font-size: var(--font-size-28px);
   padding: 2rem;
   line-height: 1.5;
+}
+
+.galleryBtn {
+  background: var(--secondary-bg-color);
+  border: none;
+}
+
+.galleryBtn a {
+  font-size: var(--font-size-24px);
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  border: 0.1rem solid var(--secondary-heading-color);
+  padding: 0.5rem 4rem;
+  border-radius: 0 50% 50% 0;
+  margin: 1rem 0 0 10rem;
+}
+
+.galleryBtn a:hover {
+  background: var(--secondary-heading-color);
+  color: var(--main-text-color);
+  transition: 0.3s;
 }

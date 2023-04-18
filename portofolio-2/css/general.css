@@ -7,6 +7,7 @@
 @import url(contactSection.css);
 @import url(pricing.css);
 @import url(footer.css);
+@import url(querys.css);
 
 /* root variables */
 :root {
@@ -107,14 +108,14 @@ li {
   font-size: var(--font-size-22px);
 }
 
-.secondaryP_2 {
-  color: var(--main-text-color);
+.secondaryP_w2 {
+  color: var(--secondary-text-color);
   font-size: var(--font-size-22px);
 }
 
-.centerContainer {
-  width: 92rem;
-  margin-inline: auto;
+.secondaryP_2 {
+  color: var(--main-text-color);
+  font-size: var(--font-size-22px);
 }
 
 .contactBtn {
@@ -125,36 +126,5 @@ li {
   padding: 1rem 1.5rem;
   cursor: pointer;
   border: none;
-  position: absolute;
-  bottom: -8rem;
-  right: 2.5rem;
-}
-
-.galleryBtn {
-  background: var(--secondary-bg-color);
-  border: none;
-}
-
-.galleryBtn a {
-  font-size: var(--font-size-24px);
-  color: var(--secondary-text-color);
-  text-decoration: none;
-  border: 0.1rem solid var(--secondary-heading-color);
-  padding: 0.5rem 4rem;
-  border-radius: 0 50% 50% 0;
-  margin: 1rem 0 0 10rem;
-}
-
-.galleryBtn a:hover {
-  background: var(--secondary-heading-color);
-  color: var(--main-text-color);
-  transition: 0.3s;
-}
-
-.grid_col_3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
+  margin: 2rem;
 }
