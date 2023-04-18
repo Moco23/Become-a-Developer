@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
+  padding: 0 0 2rem 0;
 }
 
 .cForm {
@@ -61,4 +62,31 @@
   flex-direction: column;
   gap: 2rem;
   margin-bottom: 2rem;
+}
+
+/* social media contact */
+.socialmediaContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.sMedia_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.socialMedia_icons {
+  color: var(--secondary-text-color);
+  font-size: var(--font-size-60px);
+  transition: 1s ease;
+}
+
+.socialMedia_icons:hover {
+  cursor: default;
+  transform: rotate(360deg);
 }

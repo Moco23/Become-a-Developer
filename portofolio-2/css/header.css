@@ -23,5 +23,4 @@
 .navA_hover:hover {
   font-size: var(--font-size-28px);
   cursor: default;
-  transform: rotate(360deg);
 }
