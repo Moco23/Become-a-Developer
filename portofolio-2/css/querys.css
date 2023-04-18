@@ -25,6 +25,7 @@
 @media only screen and (max-width: 760px) {
   .mainNav {
     width: 100%;
+    margin-bottom: 4rem;
   }
 
   .hero {
@@ -106,6 +107,7 @@
     flex-direction: column-reverse;
     text-align: center;
     gap: 5rem;
+    margin-bottom: 2rem;
   }
 
   .heroTextBox {
@@ -115,6 +117,20 @@
 
   .hero img {
     width: 30rem;
+  }
+
+  .technologi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tech_iconBox {
+    flex-wrap: wrap;
+    column-gap: 11rem;
+    padding: 2rem 0;
+    align-items: center;
   }
 
   .contctSection {
@@ -177,12 +193,14 @@
 
   .galleryBtn a {
     margin: 0 0 0 2rem;
+    font-size: var(--font-size-15px);
   }
 }
 
 @media only screen and (max-width: 480px) {
   .mainNav {
     width: 100%;
+    margin-bottom: 4rem;
   }
 
   .hero {
@@ -190,6 +208,7 @@
     flex-direction: column-reverse;
     text-align: center;
     gap: 5rem;
+    margin-bottom: 2rem;
   }
 
   .heroTextBox {
@@ -211,9 +230,18 @@
     gap: 1rem;
   }
 
-  .tech_iconBox {
+  .technologi {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tech_iconBox {
+    flex-wrap: wrap;
+    column-gap: 10rem;
     padding: 2rem 0;
+    align-items: center;
   }
 
   .testimonialsSection {
